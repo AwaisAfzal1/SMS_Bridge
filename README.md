@@ -346,7 +346,6 @@ sms-bridge/
 ├── README.md                   # This file
 ├── index.html                  # Web dashboard
 ├── server.py                   # Python backend
-├── requirements.txt            # Python dependencies
 ├── android/                    # Android app
 │   ├── app/
 │   │   ├── src/main/
