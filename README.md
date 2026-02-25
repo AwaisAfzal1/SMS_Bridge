@@ -291,20 +291,6 @@ cd android
 - Log update: Every 5 seconds
 - Real-time feedback on message delivery
 
-## 🔒 Security Considerations
-
-### For Development
-1. HTTP is allowed for local networks
-2. Default token is `my-secret-token-123`
-3. Web endpoints are open (no authentication)
-
-### For Production
-1. **Use HTTPS** with valid SSL certificate
-2. **Change default token** to strong random value
-3. **Implement user authentication** for web dashboard
-4. **Add rate limiting** to prevent abuse
-5. **Use environment variables** for sensitive data
-6. **Implement IP whitelisting** if needed
 
 ## 🐛 Troubleshooting
 
@@ -313,7 +299,6 @@ cd android
 #### 1. "Server unreachable" in Android app
 - Check server is running: `python server.py`
 - Verify IP address in `MainActivity.java`
-- Ensure phone and server are on same network
 - Check firewall allows port 5000
 
 #### 2. "Cleartext HTTP traffic not permitted"
