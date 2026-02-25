@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMS Bridge</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+</resources>

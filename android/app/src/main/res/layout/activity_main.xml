@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#0b0c0e">
+
+    <TextView
+        android:text="📡 SMS Bridge"
+        android:textSize="24sp"
+        android:textColor="#00ff88"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Sends SMS on behalf of your web dashboard"
+        android:textSize="12sp"
+        android:textColor="#555b6e"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:text="Starting…"
+        android:textSize="13sp"
+        android:textColor="#e8eaf0"
+        android:padding="12dp"
+        android:background="#131417"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="LOG"
+        android:textSize="10sp"
+        android:textColor="#555b6e"
+        android:letterSpacing="0.15"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#131417"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/logText"
+            android:text=""
+            android:textSize="11sp"
+            android:textColor="#8a8fa0"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+</LinearLayout>
